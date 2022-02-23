@@ -1,0 +1,109 @@
+/* zet voor het hele html stuk het font vast */
+html{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    background-image: linear-gradient(120deg, #4527A0, #0D47A1);
+    color: white;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+
+}
+h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+body {
+
+  margin: 0 auto;
+  /*padding-left: 0px;*/
+  /*border: 5px solid black;*/
+}
+.pagetop{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:white;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+
+}
+.pagetop > .left-side > div {
+    margin-right: 15px;
+    text-transform: uppercase;
+
+
+}
+.nav-link{
+
+}
+.project-container{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.project-left > a > img{
+    /*height: auto;*/
+    /*width: auto; hieronder max-widht en max-height maken*/
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    border-color:black;
+    /*Top right bottom left.*/
+    border-width:5px 5px 5px 5px;
+
+}
+.project-mid > a > img{
+    /*height: auto;*/
+    /*width: auto;*/
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    border-color:black;
+    border-width:5px 0px 5px 0px;
+    background-color: black;
+
+}
+
+.project-right >a > img{
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    border-color:black;
+    /*Top right bottom left.*/
+    border-width:5px 5px 5px 5px;
+}
+a:visited{
+    text-decoration: ;
+    color:black;
+}
+.background-fieldset{
+    bottom:0px;
+    width:90%;
+
+
+}
+fieldset{
+
+    margin:10px;
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color:black;
+    color: black;
+
+}
+legend{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+    background-color: black;
+    width:10%;
+    color:white;
+}
